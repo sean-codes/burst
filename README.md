@@ -1,7 +1,7 @@
 # burst
 A Very lightweight, no dependancy css/javascript for a material burst click effect
 
-![example](/sean-codes/burst/blob/master/example.gif?raw=true)
+![example](https://github.com/sean-codes/burst/blob/master/example.gif?raw=true)
 
 ## How to use
 Include the css and javascript on your site
