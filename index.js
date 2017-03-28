@@ -12,10 +12,6 @@ var burst = function(info){ var obj = {
       for(var i = 0; i < this.html.elements.length; i++){
          var ele = this.html.elements[i];
          ele.style.overflow = 'hidden';
-         var pos = ele.style.position;
-         if(pos !== 'relative' || pos !== 'absolute')
-            ele.style.position = 'relative'
-
          ele.addEventListener('mousedown', function(event){
             event.preventDefault();
             event.stopPropagation();
