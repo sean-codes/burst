@@ -70,7 +70,3 @@ var burst = function(info){ var obj = {
       burst.grow = true;
    }
 }; obj.init(); return obj; }
-
-burst({ selector: '.mbtn' })
-var cont = burst({ selector: '.container' })
-//burst({ selector: '.test' })
